@@ -267,4 +267,4 @@ This project is provided as-is for educational and internal use.
 
 **Version**: 1.0  
 **Last Updated**: February 2026  
-**Maintained by**: Thippeswamy
+**Maintained by**:  KV
