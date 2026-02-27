@@ -3,7 +3,7 @@
   vars:
     project_path: /opt/frontend/support-tools
     root_path: /opt/frontend/support-tools
-    venv_path: /opt/frontend/support-tools
+    venv_path: /opt/frontend/support-tools/venv
     backen_project_path: /opt/backend/deployment
     python_version: "3.10"
     token_path: "/opt/backend/deployment/.token" 
