@@ -163,6 +163,37 @@
 			]
 		},
 		{
+			"name": "/private/mlprojects/api/v1/library/categories/projects",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": "{{url}}//private/mlprojects/api/v1/library/categories/projects"
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": "{{url}}//private/mlprojects/api/v1/library/categories/projects"
+					},
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": null,
+					"cookie": [],
+					"body": "[{\"_id\":{\"$oid\":\"5fcfa9a2457d6055e33843ef\"},\"name\":\"Teachers\",\"externalId\":\"teachers\",\"createdAt\":{\"$date\":\"2020-12-08T16:28:18.244Z\"},\"updatedAt\":{\"$date\":\"2020-12-08T16:28:18.244Z\"},\"updatedBy\":\"SYSTEM\",\"createdBy\":\"SYSTEM\",\"icon\":\"static/projectCategories/teacher.png\",\"isDeleted\":false,\"isVisible\":true,\"status\":\"active\",\"noOfProjects\":232},{\"_id\":{\"$oid\":\"5fcfa9a2457d6055e33843f0\"},\"name\":\"Students\",\"externalId\":\"students\",\"createdAt\":{\"$date\":\"2020-12-08T16:28:18.244Z\"},\"updatedAt\":{\"$date\":\"2020-12-08T16:28:18.244Z\"},\"updatedBy\":\"SYSTEM\",\"createdBy\":\"SYSTEM\",\"icon\":\"static/projectCategories/students.png\",\"isDeleted\":false,\"isVisible\":true,\"status\":\"active\",\"noOfProjects\":115},{\"_id\":{\"$oid\":\"5fcfa9a2457d6055e33843f1\"},\"name\":\"Infrastructure\",\"externalId\":\"infrastructure\",\"createdAt\":{\"$date\":\"2020-12-08T16:28:18.244Z\"},\"updatedAt\":{\"$date\":\"2020-12-08T16:28:18.244Z\"},\"updatedBy\":\"SYSTEM\",\"createdBy\":\"SYSTEM\",\"icon\":\"static/projectCategories/infrastructure.png\",\"isDeleted\":false,\"isVisible\":true,\"status\":\"active\",\"noOfProjects\":211},{\"_id\":{\"$oid\":\"5fcfa9a2457d6055e33843f2\"},\"name\":\"Community\",\"externalId\":\"community\",\"createdAt\":{\"$date\":\"2020-12-08T16:28:18.244Z\"},\"updatedAt\":{\"$date\":\"2020-12-08T16:28:18.244Z\"},\"updatedBy\":\"SYSTEM\",\"createdBy\":\"SYSTEM\",\"icon\":\"static/projectCategories/community.png\",\"isDeleted\":false,\"isVisible\":true,\"status\":\"active\",\"noOfProjects\":11},{\"_id\":{\"$oid\":\"5fcfa9a2457d6055e33843f3\"},\"name\":\"Education Leader\",\"externalId\":\"educationLeader\",\"createdAt\":{\"$date\":\"2020-12-08T16:28:18.244Z\"},\"updatedAt\":{\"$date\":\"2020-12-08T16:28:18.244Z\"},\"updatedBy\":\"SYSTEM\",\"createdBy\":\"SYSTEM\",\"icon\":\"static/projectCategories/el.png\",\"isDeleted\":false,\"isVisible\":true,\"status\":\"active\",\"noOfProjects\":645},{\"_id\":{\"$oid\":\"5fcfa9a2457d6055e33843f4\"},\"name\":\"School Process\",\"externalId\":\"schoolProcess\",\"createdAt\":{\"$date\":\"2020-12-08T16:28:18.244Z\"},\"updatedAt\":{\"$date\":\"2020-12-08T16:28:18.244Z\"},\"updatedBy\":\"SYSTEM\",\"createdBy\":\"SYSTEM\",\"icon\":\"static/projectCategories/sp.png\",\"isDeleted\":false,\"isVisible\":true,\"status\":\"active\",\"noOfProjects\":257}]"
+				}
+			]
+		},
+		{
 			"name": "/private/mlcore/api/v1/solutions/list?type=",
 			"request": {
 				"method": "POST",
