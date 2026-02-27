@@ -194,6 +194,37 @@
 			]
 		},
 		{
+			"name": "/api/user/v1/search",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": "{{url}}/api/user/v1/search"
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": "{{url}}/api/user/v1/search"
+					},
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": null,
+					"cookie": [],
+					"body": "{\"id\":\"api.user.search\",\"ver\":\"v1\",\"ts\":\"2026-02-27 06:30:00:000+0000\",\"params\":{\"resmsgid\":\"1234567890\",\"msgid\":\"1234567890\",\"err\":null,\"status\":\"SUCCESS\",\"errmsg\":null},\"responseCode\":\"OK\",\"result\":{\"response\":{\"count\":1,\"content\":[{\"userId\":\"d3b7b1ef-fd8c-46f0-86db-e0f5157652cc\",\"userName\":\"anshikajoshi_etj3\",\"firstName\":\"Anshika\",\"rootOrgId\":\"0126684405014528002\",\"organisations\":[{\"organisationId\":\"0126684405014528002\",\"orgName\":\"DIKSHA Custodian Org\",\"roles\":[\"ORG_ADMIN\",\"PROGRAM_MANAGER\"]},{\"organisationId\":\"01323882224216473632031\",\"orgName\":\"M.S. Kumrath (Boy)\",\"roles\":[\"TEACHER\"]}]}]}}}"
+				}
+			]
+		},
+		{
 			"name": "/private/mlcore/api/v1/solutions/list?type=",
 			"request": {
 				"method": "POST",
