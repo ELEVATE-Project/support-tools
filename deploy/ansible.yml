@@ -47,7 +47,7 @@
 
     - name: Install requirements
       pip:
-        requirements: "{{ project_path }}/requirements.txt"
+        requirements: "{{ project_path }}/requirement.txt"
         virtualenv: "{{ venv_path }}"
         extra_args: "--upgrade pip"
 
