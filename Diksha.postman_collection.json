@@ -460,6 +460,37 @@
 			]
 		},
 		{
+  "name": "/private/mlcore/api/v1/admin/dbFind/userExtension",
+  "request": {
+    "method": "POST",
+    "header": [],
+    "body": {
+      "mode": "raw",
+      "raw": ""
+    },
+    "url": "{{url}}/private/mlcore/api/v1/admin/dbFind/userExtension"
+  },
+  "response": [
+    {
+      "name": "Default",
+      "originalRequest": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "url": "{{url}}/private/mlcore/api/v1/admin/dbFind/userExtension"
+      },
+      "code": 200,
+      "_postman_previewlanguage": "json",
+      "header": null,
+      "cookie": [],
+      "body": "{\"message\":\"Data fetched successfully\",\"status\":200,\"result\":[{\"_id\":\"652e27a4fafbf90008f46ce3\",\"roles\":[],\"status\":\"active\",\"isDeleted\":false,\"removedFromHomeScreen\":[],\"improvementProjects\":[],\"platformRoles\":[{\"roleId\":\"615ead8e4505412870ae69c7\",\"code\":\"PROGRAM_MANAGER\"},{\"roleId\":\"615ead8e4505412870ae69c6\",\"code\":\"PROGRAM_DESIGNER\"}],\"deleted\":false,\"userId\":\"7028a501-83f1-4d44-a53a-380db99d7ede\",\"externalId\":\"slpm_wa1g\",\"updatedBy\":\"140558b9-7df4-4993-be3c-31eb8b9ca368\",\"createdBy\":\"140558b9-7df4-4993-be3c-31eb8b9ca368\",\"updatedAt\":\"2025-12-17T11:35:17.093Z\",\"createdAt\":\"2023-10-17T06:20:20.544Z\",\"__v\":0}],\"count\":1}"
+    }
+  ]
+},
+		{
 			"name": "private/mlcore/api/v1/solutions/fetchLink/",
 			"request": {
 				"method": "POST",
