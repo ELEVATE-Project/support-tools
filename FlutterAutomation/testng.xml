@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="DIKSHA Automation Suite"
+       verbose="1"
+       preserve-order="true"
+       parallel="false">
+
+    <test name="DIKSHA End To End Automation"
+          preserve-order="true">
+
+        <classes>
+
+            <!-- 1. User Registration and Login -->
+            <class name="tests.TestUserOnboarding"/>
+
+            <!-- 2. User Profile Update -->
+            <class name="tests.TestUserProfile"/>
+
+            <!-- 3. Project, Survey and Observation Consumption -->
+            <class name="tests.TestUserConsumption"/>
+
+        </classes>
+
+    </test>
+
+</suite>
